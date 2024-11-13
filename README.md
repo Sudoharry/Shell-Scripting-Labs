@@ -3,8 +3,7 @@ server-stats.sh - Server Performance Analyzer
 Author: Harendra Barot
 ---
 **Project page URL:** 
-
-https://github.com/Sudoharry/Roadmap-Live-Projects/tree/main/Server-Performance-stats
+(https://roadmap.sh/projects/server-stats)
 ---
 
 Overview
