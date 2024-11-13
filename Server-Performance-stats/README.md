@@ -4,7 +4,7 @@ Author: Harendra Barot
 ---
 **Project page URL:** 
 This project is available at:
-- https://github.com/Sudoharry/Roadmap-Live-Projects/tree/main/Server-Performance-stats.git
+- https://github.com/Sudoharry/Roadmap-Live-Projects/tree/main/Server-Performance-stats
 
 ---
 Overview
