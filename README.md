@@ -2,10 +2,10 @@ server-stats.sh - Server Performance Analyzer
 ---
 Author: Harendra Barot
 ---
-## Project URL:
+**Project page URL:**
 You can view this project and contribute via the GitHub repository:  
 https://github.com/Sudoharry/Roadmap-Live-Projects/edit/main/Server-Performance-stats/
-
+---
 
 Overview
 ---
