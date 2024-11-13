@@ -3,7 +3,7 @@ server-stats.sh - Server Performance Analyzer
 Author: Harendra Barot
 ---
 **Project page URL:** 
-This project is available at: [Server Performance Stats GitHub Repository](https://github.com/Sudoharry/Server-Performance-stats)
+This project is available at: [Server Performance Stats GitHub Repository](https://github.com/Sudoharry/Roadmap-Live-Projects/tree/main/Server-Performance-stats))
 ---
 
 Overview
