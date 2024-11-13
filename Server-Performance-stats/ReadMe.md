@@ -2,6 +2,10 @@ server-stats.sh - Server Performance Analyzer
 ---
 Author: Harendra Barot
 ---
+## Project URL:
+You can view this project and contribute via the GitHub repository:  
+https://github.com/Sudoharry/Roadmap-Live-Projects/edit/main/Server-Performance-stats/
+--
 Overview
 server-stats.sh is a shell script designed to analyze basic server performance statistics. It provides detailed insights into system resource usage, top processes, and additional system information to help with debugging and performance monitoring.
 ---
