@@ -4,7 +4,7 @@ Author: Harendra Barot
 ---
 **Project page URL:**
 You can view this project and contribute via the GitHub repository:  
-https://github.com/Sudoharry/Roadmap-Live-Projects/edit/main/Server-Performance-stats/
+https://github.com/Sudoharry/Roadmap-Live-Projects/Server-Performance-stats/
 ---
 
 Overview
