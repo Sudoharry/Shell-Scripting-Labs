@@ -1,8 +1,7 @@
-AWS Billing Optimization Playbook	
+# **AWS Billing Optimization Playbook**
 
-Author: Harendra Barot	
-
-Date: 14-11-2024
+## **Author: Harendra Barot**
+### **Date: 14-11-2024**
 ________________________________________
 **1. Overview	
 Purpose:**
@@ -10,6 +9,7 @@ To optimize AWS costs using a real-world approach and document actionable steps 
 
 **Target Audience:** 
 Beginners and intermediate AWS users who want to analyse, identify, and minimize AWS billing inefficiencies.
+
 **Expected Outcome:**
 Learn how to evaluate billing trends, identify unnecessary expenses, and implement cost-saving measures effectively.
 ________________________________________
@@ -17,13 +17,13 @@ ________________________________________
 Description:**
 **Overview of AWS usage and billing data for the past two months:**
 
-**o	Month 1 Bill: $46**
--	Primary Contributors:
+-	**Month 1 Bill: $46**
+      -	Primary Contributors:
       -	Amazon Business Support: $41
       -	VPC Services: $5.85
     	
-**o	Month 2 Bill: $100**  
--	Primary Contributors:
+-	**Month 2 Bill: $100**  
+      -	Primary Contributors:
       -	Amazon Business Support: $41
       -	VPC Services: $5
       -	Additional service charges: ~$54
@@ -56,7 +56,7 @@ ________________________________________
 **Action Items:**
 
    - 1.	Inventory all active resources using AWS Resource Groups and Trusted Advisor.
-   -  2.	Identify underutilized or idle resources, such as:
+   - 2.Identify underutilized or idle resources, such as:
       o	Unused EC2 instances or Lambda functions.
       o	Unattached EBS volumes or old snapshots.
       o	Idle Elastic IPs or NAT Gateways.
@@ -122,8 +122,9 @@ ________________________________________
 **•	Sample Script:**
 
 **Automating cleanup of unattached EBS volumes:**
-aws ec2 describe-volumes --query 'Volumes[?State==`available`].[VolumeId]' \
-  --output text | xargs -I {} aws ec2 delete-volume --volume-id {}
+
+> aws ec2 describe-volumes --query 'Volumes[?State==`available`].[VolumeId]' \
+> --output text | xargs -I {} aws ec2 delete-volume --volume-id {} 
 ________________________________________
 **6. Lessons Learned** 
 
