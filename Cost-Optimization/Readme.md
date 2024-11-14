@@ -19,14 +19,14 @@ Description:**
 
 -	**Month 1 Bill: $46**
       -	Primary Contributors:
-      -	Amazon Business Support: $41
-      -	VPC Services: $5.85
+        - Amazon Business Support: $41
+        - VPC Services: $5.85
     	
 -	**Month 2 Bill: $100**  
-      -	Primary Contributors:
-      -	Amazon Business Support: $41
-      -	VPC Services: $5
-      -	Additional service charges: ~$54
+      -	Primary Contributors:	
+        - Amazon Business Support: $41
+        - VPC Services: $5
+        - Additional service charges: ~$54
   
 **Resource List:**
 
@@ -45,9 +45,8 @@ ________________________________________
 
 **- Action Items:**
       **1.	Review AWS Cost Explorer to categorize charges by service, region, and time period.**
+      **2.  Identify significant contributors to costs, such as high NAT Gateway or data transfer charges.**
       
-**2.  Identify significant contributors to costs, such as high NAT Gateway or data transfer charges.**
-
       -Tools: AWS Cost Explorer, Billing Dashboard.
       - Outcome: Clear visibility of cost breakdown and trends.
 ________________________________________
@@ -55,11 +54,12 @@ ________________________________________
 
 **Action Items:**
 
-   - 1.	Inventory all active resources using AWS Resource Groups and Trusted Advisor.
+   - 1.Inventory all active resources using AWS Resource Groups and Trusted Advisor.
    - 2.Identify underutilized or idle resources, such as:
-      o	Unused EC2 instances or Lambda functions.
-      o	Unattached EBS volumes or old snapshots.
-      o	Idle Elastic IPs or NAT Gateways.
+     
+      -	Unused EC2 instances or Lambda functions.
+      -	Unattached EBS volumes or old snapshots.
+      -	Idle Elastic IPs or NAT Gateways.
 **Tools:** AWS Resource Groups, AWS Trusted Advisor, AWS CLI.
 **Outcome:** A detailed list of resources for potential cleanup or optimization.
 ________________________________________
@@ -68,20 +68,24 @@ ________________________________________
 **Examples:**
 
 **1.	Amazon Business Support:** 
-   -	Problem: High monthly cost ($41).
-   -	Resolution: Downgrade to Developer Support if business-level SLA is unnecessary.
-   -	
+
+   - Problem: High monthly cost ($41).
+   - Resolution: Downgrade to Developer Support if business-level SLA is unnecessary.
+   	
 **2.	VPC Services:**
-    	-	Problem: High NAT Gateway charges.
-     -	Resolution: Replace NAT Gateway with NAT Instances or consider consolidating traffic to reduce costs.
+
+    - Problem: High NAT Gateway charges.
+    - Resolution: Replace NAT Gateway with NAT Instances or consider consolidating traffic to reduce costs.
       	
 **3.	Compute (EC2):** 
-  -	Problem: Possible oversized or unused instances.
-  - 	Resolution: Right-size instances or switch to Spot Instances for non-critical workloads.
+
+   - Problem: Possible oversized or unused instances.
+   - Resolution: Right-size instances or switch to Spot Instances for non-critical workloads.
    
 **4.	S3 Storage:**
-   -	Problem: Increased storage costs due to old or infrequently accessed data.
-  -	Resolution: Implement lifecycle policies to transition data to S3 Glacier.
+
+  - Problem: Increased storage costs due to old or infrequently accessed data.
+  - Resolution: Implement lifecycle policies to transition data to S3 Glacier.
 ________________________________________
 **3.4. Automate Resource Clean-up**
 
