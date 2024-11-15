@@ -1,9 +1,8 @@
 # Log Archive Tool - Automated Log Archiving Script
----
 
 ## **Author:** Harendra Barot  
 ### Project URL:  
-- https://roadmap.sh/projects/log-archive-tool
+https://roadmap.sh/projects/log-archive-tool
 
 
 ---
