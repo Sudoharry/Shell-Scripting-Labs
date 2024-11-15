@@ -1,0 +1,5 @@
+Archived logs from /var/log on 20241115_043207
+Archived logs from /var/log on 20241115_043900
+Archived logs from /home/ubuntu/log-archive on 20241115_044801
+Archived logs from /home/ubuntu/log-archive on 20241115_044901
+Archived logs from /home/ubuntu/log-archive on 20241115_045001
