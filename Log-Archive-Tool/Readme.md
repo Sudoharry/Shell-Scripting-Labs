@@ -4,13 +4,9 @@
 
 ### **Author:** Harendra Barot  
 
----
-
 ## Overview
 
 The **Log Archive Tool** is a shell script designed to automate the process of archiving server logs. It helps to reduce disk space usage by compressing log files into `.tar.gz` archives, making it easier to manage large log directories. The script records the timestamp of each archive operation, ensuring logs are safely stored and available for future troubleshooting, auditing, or security purposes.
-
----
 
 ## Features
 
