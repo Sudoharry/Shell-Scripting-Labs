@@ -38,67 +38,63 @@ To get started with this project, you need:
    sudo apt update
    sudo apt install -y curl
 
-1.2 Install Netdata:
+### 1.2 Install Netdata:
 Run the following command to install Netdata on your system:
 
 bash <(curl -Ss https://my-netdata.io/kickstart.sh)
-1.3 Start and enable Netdata:
+### 1.3 Start and enable Netdata:
 After the installation completes, start and enable the Netdata service:
 
 sudo systemctl start netdata
 sudo systemctl enable netdata
-1.4 Verify Installation:
+### 1.4 Verify Installation:
 Visit http://<your-server-ip>:19999 in your web browser. You should see the Netdata dashboard displaying system metrics.
 
-Step 2: Configure Netdata to Monitor Basic System Metrics
+## Step 2: Configure Netdata to Monitor Basic System Metrics
 Netdata comes pre-configured to monitor basic system metrics like:
 
-CPU usage
-Memory usage
-Disk I/O
-Network activity
+- CPU usage
+- Memory usage
+- Disk I/O
+- Network activity
 You can customize these configurations by editing the Netdata configuration files. For example, to change the port Netdata listens on, edit the netdata.conf file:
-
-
 sudo nano /etc/netdata/netdata.conf
-Step 3: Access the Netdata Dashboard
+
+## Step 3: Access the Netdata Dashboard
 Once the Netdata service is running, access the dashboard in a web browser:
 
 arduino 
 http://<your-server-ip>:19999
 The dashboard will show real-time data on various system metrics like CPU, memory, disk I/O, and more.
 
-Step 4: Customize the Netdata Dashboard
+## Step 4: Customize the Netdata Dashboard
 You can customize the Netdata dashboard by:
 
-Adding new charts
-Modifying existing ones
-Adjusting how the data is collected
-To add or modify a chart, edit the appropriate plugin configurations under /etc/netdata.
+- Adding new charts
+- Modifying existing ones
+- Adjusting how the data is collected
+- To add or modify a chart, edit the appropriate plugin configurations under /etc/netdata.
 
-Step 5: Set Up Alerts for Specific Metrics
+## Step 5: Set Up Alerts for Specific Metrics
 Netdata allows you to set up alerts to notify you when a metric exceeds a certain threshold. For example, you can create an alert to notify you if CPU usage exceeds 80%.
 
-Example: Set up CPU usage alert
+**Example:** Set up CPU usage alert
 Create a new alert configuration file:
-
 
 sudo nano /etc/netdata/health.d/cpu_usage.conf
 Add the following configuration:
-
-
 check system.cpu
   on: system.cpu
   warn: $this > 80
   crit: $this > 90
   info: CPU usage over 80% is warning, over 90% is critical
-Restart Netdata to apply the changes:
 
+Restart Netdata to apply the changes:
 
 sudo systemctl restart netdata
 Now, Netdata will send an alert when the CPU usage exceeds the specified thresholds.
 
-Step 6: Automate the Setup and Testing with Shell Scripts
+## Step 6: Automate the Setup and Testing with Shell Scripts
 You can automate the installation, testing, and cleanup processes using shell scripts. Below are the scripts provided in this project:
 
 setup.sh - Install Netdata
