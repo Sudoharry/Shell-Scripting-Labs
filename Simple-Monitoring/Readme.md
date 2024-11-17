@@ -65,6 +65,9 @@ Once the Netdata service is running, access the dashboard in a web browser:
 
 arduino 
 http://<your-server-ip>:19999
+![system-from-ip-19999](https://github.com/user-attachments/assets/0aa9878e-3691-4632-9551-200b63364139)
+![Data-base-from-ip-19999](https://github.com/user-attachments/assets/4a825be6-4aae-45fe-8252-4f595613f8a2)
+
 The dashboard will show real-time data on various system metrics like CPU, memory, disk I/O, and more.
 
 ## Step 4: Customize the Netdata Dashboard
