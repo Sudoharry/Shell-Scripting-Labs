@@ -23,10 +23,11 @@ To create a shell script that can stop either specific EC2 instances or all EC2 
 
 ### Make the Script Executable: 
    - After saving the script, make it executable by running:
-      - chmod +x stop_ec2_instances.sh
+      - chmod 700 stop_ec2_instances.sh
     
 ### Run the Script: Now, you can run the script to stop EC2 instances:
        - When you run the script, it will display a prompt asking if you want to stop all EC2 instances or specific EC2 instances. 
-       - Based on your choice, the corresponding action will be taken.
+        Based on your choice, the corresponding action will be taken.
+![Output](https://github.com/user-attachments/assets/4a1797d5-2a1b-42d1-8252-fa0c25f75353)
 
        
