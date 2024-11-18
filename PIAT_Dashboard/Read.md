@@ -5,6 +5,8 @@
 **PIAT-DASHBOARD** is a versatile Bash-based utility script designed for DevOps engineers. It streamlines AWS management, Docker container deployment, Kubernetes application handling, and system utilization monitoring.
 
 ---
+## PIAT Workflow
+![PIAT-WORKFLOW](https://github.com/user-attachments/assets/e14b24c9-2c6d-45f2-8899-7594782d9edf)
 
 ## Features
 - **AWS Management**: List active services, EC2 instances, and S3 buckets.  
