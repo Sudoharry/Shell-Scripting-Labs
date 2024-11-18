@@ -25,11 +25,38 @@
    ```bash
    git clone https://github.com/your-repo/piat-dashboard.git
    cd piat-dashboard
-
 **3. Make the script executable:**
 - chmod 700 piat-dashboard.sh
 
 ## Usage:
 -  ./piat.sh
 
-   
+### Options
+1) List AWS Services: Shows currently active AWS services.
+--
+2) Check System Utilization: Displays CPU, memory, and disk usage.
+--
+3) List EC2 Instances: Retrieves details of all EC2 instances.
+--
+4) List S3 Buckets: Displays all S3 buckets in your AWS account.
+--
+5) Deploy Docker Container: Deploys a container using a specified Docker image.
+--
+6) List Kubernetes Pods: Lists all pods in the current Kubernetes context.
+--
+7) Deploy Kubernetes Application: Deploys an application using a Kubernetes YAML file.
+---
+8) Create S3 Bucket: Creates a new S3 bucket in your AWS account.
+--
+9) Exit: Terminates the script.
+
+---
+## Logs
+
+- All actions performed by the script are logged to devops_script.log for auditing and debugging purposes.
+
+##   Future Enhancements
+- Add dynamic retrieval of AWS services.
+- Include error notifications via email.
+- Modularize functions for better scalability.
+- Add task scheduling integration with cron.
