@@ -1,4 +1,5 @@
 # PIAT-DASHBOARD
+![PIAT](https://github.com/user-attachments/assets/39b07b55-f87d-4887-926c-2bace970df42)
 
 ## Project Definition
 **PIAT-DASHBOARD** is a versatile Bash-based utility script designed for DevOps engineers. It streamlines AWS management, Docker container deployment, Kubernetes application handling, and system utilization monitoring.
