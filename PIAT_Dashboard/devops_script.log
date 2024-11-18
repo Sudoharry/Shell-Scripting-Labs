@@ -1,0 +1,26 @@
+2024-11-18 06:20:56 - Script execution started.
+2024-11-18 06:20:59 - AWS service ec2 is not active.
+2024-11-18 06:20:59 - AWS service s3 is not active.
+2024-11-18 06:20:59 - AWS service lambda is not active.
+2024-11-18 06:20:59 - AWS service rds is not active.
+2024-11-18 06:20:59 - AWS service dynamodb is not active.
+2024-11-18 06:20:59 - AWS service cloudwatch is not active.
+2024-11-18 06:20:59 - AWS service ecs is not active.
+2024-11-18 06:20:59 - AWS service sqs is not active.
+2024-11-18 06:20:59 - AWS service sns is not active.
+2024-11-18 06:20:59 - AWS service iam is not active.
+2024-11-18 06:21:07 - Retrieved system utilization metrics.
+2024-11-18 06:21:13 - Error: aws is not installed.
+2024-11-18 06:21:55 - Error: Failed to deploy Docker container with image: .
+2024-11-18 06:22:00 - Error: aws is not installed.
+2024-11-18 06:22:04 - Error: aws is not installed.
+2024-11-18 06:22:10 - Script exited by user.
+2024-11-18 06:46:13 - Script execution started.
+2024-11-18 06:47:37 - Retrieved system utilization metrics.
+2024-11-18 06:47:42 - Error: Failed to retrieve EC2 instances.
+2024-11-18 06:47:57 - Script exited by user.
+2024-11-18 06:51:59 - Script execution started.
+2024-11-18 06:52:11 - Error: Failed to create S3 bucket h2m.
+2024-11-18 06:52:31 - Error: Failed to create S3 bucket harry_qww.
+2024-11-18 06:52:49 - Created S3 bucket aws-s3-harry-demo.
+2024-11-18 06:53:21 - Retrieved system utilization metrics.
