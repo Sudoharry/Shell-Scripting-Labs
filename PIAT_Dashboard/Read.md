@@ -65,10 +65,10 @@
 - Add task scheduling integration with cron.
 
 ## OUTPUT
-![1](https://github.com/user-attachments/assets/c88aa688-597a-4e17-9a89-21d276c419c7)
-![2](https://github.com/user-attachments/assets/16ea16a9-a412-4a89-b0c0-33c87a88be7f)
-![3](https://github.com/user-attachments/assets/286fdc38-0d84-4045-a071-08315619e7bc)
-![4](https://github.com/user-attachments/assets/0a4c48b6-483c-4f53-8930-57d6fbdb043d)
-![5](https://github.com/user-attachments/assets/4df90fa3-f675-4ebb-8c68-92c38ccd4791)
-![8](https://github.com/user-attachments/assets/33625394-1d4b-4a37-bb58-8b8009af3026)
+[1](https://github.com/user-attachments/assets/c88aa688-597a-4e17-9a89-21d276c419c7)
+[2](https://github.com/user-attachments/assets/16ea16a9-a412-4a89-b0c0-33c87a88be7f)
+[3](https://github.com/user-attachments/assets/286fdc38-0d84-4045-a071-08315619e7bc)
+[4](https://github.com/user-attachments/assets/0a4c48b6-483c-4f53-8930-57d6fbdb043d)
+[5](https://github.com/user-attachments/assets/4df90fa3-f675-4ebb-8c68-92c38ccd4791)
+[8](https://github.com/user-attachments/assets/33625394-1d4b-4a37-bb58-8b8009af3026)
 
