@@ -34,7 +34,10 @@ To use this script, you must have the following installed on your Linux machine:
 ## Getting Started
 
 ### Clone the repository
-```bash
-git clone https://github.com/your-username/User-Permission-Management.git
-cd User-Permission-Management
+ bash
+ git clone https://github.com/Sudoharry/User-and-Permission-Management.git
+ cd User-and-Permission-Management
 
+### INPUT/OUTPUT
+![Input](https://github.com/user-attachments/assets/fadf9a4c-b030-4c5e-9847-41cf341e24c6)
+![Output](https://github.com/user-attachments/assets/d26393a2-f8a0-46f0-9341-b61268e00ccb)
