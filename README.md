@@ -32,7 +32,9 @@ Welcome to my collection of real-time shell scripting projects! This repository 
 7. **Stop EC2**  
    - Automates stopping EC2 instances to save costs during non-peak hours.  
    - [Detailed Guide](https://github.com/Sudoharry/Shell-scripting-realtime-projects/tree/main/stop-ec2)  
-
+8. **User and Permission Management shell scripting**
+   - Automates the process of user creation, group assignment, and file permissions management.
+   - [Detailed Guide] (https://github.com/Sudoharry/Shell-scripting-realtime-projects/tree/main/User-and-Permission-Management)
 ---
 
 ## How to Use  
