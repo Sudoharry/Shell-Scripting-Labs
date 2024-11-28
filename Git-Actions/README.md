@@ -9,7 +9,7 @@ A shell script that simplifies common Git operations by providing an interactive
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
-4. [Screenshots] (#screenshots)
+4. [Screenshots](#screenshots)
 ---
 
 ## Introduction
