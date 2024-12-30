@@ -15,5 +15,3 @@ crontab -e
 ![image](https://github.com/user-attachments/assets/15f2c20b-e40a-4d9f-9dae-7004fed12db7)
 
 ---
-
-Conlusion:
