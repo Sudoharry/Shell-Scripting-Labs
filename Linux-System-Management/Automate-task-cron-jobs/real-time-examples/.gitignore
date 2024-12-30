@@ -6,3 +6,9 @@ logs/
 
 # Optional: Ignore debug log files
 *.debug.log
+
+#AWS
+
+.secret
+.key
+.pem
