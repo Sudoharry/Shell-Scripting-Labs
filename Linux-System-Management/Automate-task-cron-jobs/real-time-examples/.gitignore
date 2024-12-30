@@ -1,0 +1,8 @@
+# Ignore all .log files
+*.log
+
+# Optional: Ignore log files in specific directories (e.g., logs/)
+logs/
+
+# Optional: Ignore debug log files
+*.debug.log
