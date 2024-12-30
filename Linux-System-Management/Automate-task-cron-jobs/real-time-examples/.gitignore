@@ -9,6 +9,6 @@ logs/
 
 #AWS
 
-.secret
-.key
-.pem
+*.secret
+*.key
+*.pem
