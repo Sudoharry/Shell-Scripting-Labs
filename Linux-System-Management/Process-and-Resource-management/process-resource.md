@@ -1,6 +1,6 @@
 ## Process and Resource Management:
 ---
-![image](https://github.com/user-attachments/assets/8b955a70-887a-4647-9925-74a93243e2a4)
+![ProcessState](https://github.com/user-attachments/assets/08ab90fc-a2fb-486d-831b-3286047fb8b6)
 
 ---
 
