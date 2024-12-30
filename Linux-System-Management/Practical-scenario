@@ -1,0 +1,5 @@
+## Practical Scenarios:
+
+ ### 1) Set up a simple web server (e.g., Nginx or Apache).
+ ### 2) Monitor server logs for troubleshooting.
+ ### 3) Use scp or rsync to transfer files between servers.
