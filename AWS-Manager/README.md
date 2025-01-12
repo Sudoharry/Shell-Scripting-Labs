@@ -1,37 +1,9 @@
+
 # EC2 Manager Script
+---
+![Screenshot from 2025-01-12 12-24-42](https://github.com/user-attachments/assets/81f4d483-f2f9-4ac2-b6f5-12153df9d5ed)
 
-The EC2 Manager Script is a dynamic tool for managing AWS EC2 instances using the AWS CLI. The script allows you to:
-
-- **Create EC2 instances** with a custom configuration.
-- **SSH into EC2 instances** without the need to manually look up the public IP.
-- **Terminate EC2 instances** and cleanly remove associated resources.
-
-This script is written in Bash and interacts with AWS services to automate EC2 instance lifecycle management, making it a convenient tool for managing EC2 instances in various environments.
-
-## Features
-
-- **Create EC2 Instances**: Launch a new EC2 instance with the specified configuration.
-- **SSH into EC2 Instances**: SSH into an existing EC2 instance using the private key.
-- **Terminate EC2 Instances**: Cleanly terminate an EC2 instance and delete any associated resources.
-- **Configuration**: Easy configuration of AWS region, AMI, key pairs, and security groups.
-
-## Prerequisites
-
-Before using this script, ensure the following are set up:
-
-### 1. AWS CLI
-
-Install and configure AWS CLI with your AWS credentials. To configure AWS CLI, run:
-
-```bash
-aws configure
-```
-
-
-Here is the updated and comprehensive `README.md` file with all the requested information added:
-
-```markdown
-# EC2 Manager Script
+---
 
 The EC2 Manager Script is a dynamic tool for managing AWS EC2 instances using the AWS CLI. The script allows you to:
 
